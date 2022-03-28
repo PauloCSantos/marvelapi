@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# MARVEL API
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Sobre o projeto
 
-## Available Scripts
+Aplicação que utiliza a api da marvel para pesquisar heróis e quadrinhos
 
-In the project directory, you can run:
+## Imagens da aplicação
 
-### `npm start`
+### menu
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![tela-menu](imgs/tela-menu.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### pesquisa do herói
 
-### `npm test`
+![tela-pesquisa](imgs/tela-pesquisa.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### biografia 
 
-### `npm run build`
+![tela-biografia](imgs/tela-biografia.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### quadrinhos herói
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![tela-quadrinhos](imgs/tela-quadrinhos.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### informação quadrinho
 
-### `npm run eject`
+![tela-info](imgs/tela-quadrinhos-info.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# 🚀 Começando
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📋 Pré-requisitos
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- npm / yarn
 
-## Learn More
+## 🔧 Instalação
+### :warning::warning: **A pasta imgs**: é para guardar as imagens usadas no readme.md! Apagar ela depois do clone :warning::warning:
+``` bash
+### clonar repositório
+git clone https://github.com/PauloCSantos/marvelapi.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## entrar na pasta do projeto
+cd marvelapi
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## instalar as dependencias
+npm install
 
-### Code Splitting
+## gerar as chaves(public e private)
+acessar o site da marvel https://developer.marvel.com/ e realizar o cadastro para obter as chaves
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## preencher o api.js na pasta services
+na pasta services preencher o publickey e privatekey com as chaves geradas no site da marvel
 
-### Analyzing the Bundle Size
+## executar o projeto
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🛠️ Construído com
 
-### Making a Progressive Web App
+- ReactJS
+- TailWindCSS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## ✒️ Autor
 
-### Advanced Configuration
+* **Paulo C Santos** - [Linkedin](https://www.linkedin.com/in/paulocsantos1995/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🖐️ Agradecimento
 
-### Deployment
+Agradeço a Marvel pela Api 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-Link da api da Marvel: https://developer.marvel.com/
